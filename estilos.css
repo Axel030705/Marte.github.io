@@ -1,80 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: consolas;
-}
 body{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    background-image: url("fondopag.PNG");
 }
-.video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h1{
-    position: absolute;
-    color: white;
-    font-size: 50px;
-    top: 50px;
-}
-h3{
-    position: absolute;
-    top: 150px;
-    color: white;
-}
-#parrafo2{
-    position: absolute;
-    top: 180px;
-    color: white;
-}
-#parrafo3{
-    position: absolute;
-    top: 210px;
-    color: white;
-}
-#parrafo4{
-    position: absolute;
-    top: 275px;
-    color: white;
-}
-#parrafo5{
-    position: absolute;
-    top: 240px;
-    color: white;
-}
-.content2 a{
+a{
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    position: absolute;
-    width: 8.5%;
-    height: 4%;
-    top:60%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 5px;
 }
-.content2 a:hover{
+a:hover{
     color: aqua;
     background-color: black;
 }
